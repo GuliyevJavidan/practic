@@ -1,0 +1,55 @@
+.who-we{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    .who-we-content{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .text-content{
+            h2{
+                font-size: 40px;
+                font-weight: 700px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400px;
+            }
+        }
+        .extra-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .video{
+                background-image: url(/assets/imgs/who-we/card-item.svg);
+                width: 600px;
+                height: 440px;
+            }
+            .info-content{
+                width: 500px;
+                .text{
+                    h2{
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: #252B42;
+                        margin-left: 23px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #737373;
+                    }
+                }
+                .item{
+                    .icon{
+                        .i{
+                            font-size: 32px;
+                            color: #D0A144;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

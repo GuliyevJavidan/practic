@@ -1,0 +1,80 @@
+.practice-advice {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .advice-content {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    .text-content {
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+      gap: 30px;
+      h2 {
+        color: #252b42;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      p {
+        color: #737373;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: row;
+      padding: 50px;
+      gap: 40px;
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        background-color: #fff;
+        width: 230px;
+        height: 340px;
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+          h2 {
+            color: #252b42;
+            font-size: 16px;
+            font-weight: 700;
+          }
+          h5 {
+            color: #737373;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+        .img {
+          width: 100%;
+          height: 130px;
+          background-repeat: no-repeat;
+        }
+        .img1 {
+          background-image: url(/assets/imgs/practice-advice/cover-1.svg);
+        }
+        .img2 {
+          background-image: url(/assets/imgs/practice-advice/cover-2.svg);
+        }
+        .img3 {
+          background-image: url(/assets/imgs/practice-advice/cover-3.svg);
+        }
+        .img4 {
+          background-image: url(/assets/imgs/practice-advice/cover-4.svg);
+        }
+      }
+    }
+  }
+}
